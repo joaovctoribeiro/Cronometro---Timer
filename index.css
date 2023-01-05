@@ -1,0 +1,62 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    margin: 0px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.container {
+    text-align: center;
+    padding-top: 14rem;
+}
+
+/* Botão dos cronometros */
+/* Timer buttons */
+
+button {
+    height: 3em;
+    width: 5.5em;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    font-weight: 800;
+    font-size: 90%;
+    border-width: 0.2rem;
+}
+
+.btn-start {
+    background-color: rgb(1, 95, 1);
+}
+
+.btn-pause {
+    background-color: rgb(211, 163, 4);
+}
+
+.btn-stop {
+    background-color: rgb(155, 0, 0);
+}
+
+/* Animação dos botões */
+/* Buttons hover */
+
+.btn-start:hover {
+    background-color: rgb(0, 66, 0);
+    border-color: rgb(0, 75, 0);
+    border-style: solid;
+}
+
+.btn-pause:hover {
+    background-color: rgb(158, 121, 0);
+    border-color: rgb(173, 133, 1);
+    border-style: solid;
+}
+
+.btn-stop:hover {
+    background-color: rgb(107, 0, 0);
+    border-color: rgb(129, 0, 0);
+    border-style: solid;
+}
